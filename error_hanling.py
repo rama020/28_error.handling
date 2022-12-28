@@ -4,31 +4,37 @@ DAY: WEDNESDAY
 TOPIC: ERROR_HANDLING
 AUTHOR:RAMA BHARGAvi
 '''
-print("pytho")
-print("core python")
-try:
-    print(5/0)
-except:
-    print('you have divided by zero')
-print("advance python")
-print("python analytics") 
-print("python")
-print("core python")
-try:
-    print(10/5)
-except:
-    print('not ok divided by zero')
-print("advance anlytice") 
-print("python analytics")      
 print("python")
 print("core python")
 a=5
 try:
-    print('b')
+    print(a/5)
+    print("b")
 except ZeroDivisionError:
     print('not ok divided by zero')
 print("advance python")
 print("python analytics")
-
+print("python")
+print("core python")
+a=5
+try:
+    print(a/5)
+    print(a/0)
+except ZeroDivisionError:
+    print('not ok divided by zero')
+print("advance python")
+print("python analytics")
+print("python")
+print("core python")
+a=5
+try:
+    print(a/0)
+    print("7")
+except ZeroDivisionError:
+    print('not ok divided by zero')
+except NameError:
+    print('you have not defined the name')
+print("advance python")
+print("python analytics")    
 
 
